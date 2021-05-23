@@ -325,3 +325,23 @@ li {
 .skills {
   list-style: inside url("../media/svg/circle.svg");
 }
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem;
+}
+
+.form-intro {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.form-intro p {
+  font-size: 32px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: #172B4D;
+}
