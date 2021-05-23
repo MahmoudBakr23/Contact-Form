@@ -345,3 +345,43 @@ li {
   font-weight: 700;
   color: #172B4D;
 }
+
+.form-control {
+  margin: 1rem 0;
+}
+
+.form-control input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 0;
+  border-bottom: 1px solid #DBD8D7;
+}
+
+.form-control textarea {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #FBF8F7;
+  border: 0;
+}
+
+.form-control input::placeholder {
+  color: #979493;
+}
+
+.form-control textarea::placeholder {
+  color: #3C3A39;
+}
+
+.submit-input {
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.submit-input input {
+  padding: 0.5rem;
+  background-color: #FF6B00;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
